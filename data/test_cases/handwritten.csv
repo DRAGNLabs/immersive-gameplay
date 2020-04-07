@@ -1,0 +1,25 @@
+attack,spaceship,Concentrate all fire on that star cruiser
+attack,enemies,Kill on sight.
+follow,enemies,Follow those hostiles.
+follow,me,Stay on my tail.
+protect,turret,Set up a defensive perimeter around that missile turret.
+attack,enemies,Engage the hostiles.
+enter,building,Everybody get inside that skyscraper!
+enter,vehicle,All aboard!
+exit,vehicle,Get off the truck.
+exit,spaceship,Disembark.
+enter,vehicle,Take the gunner seat on that jeep.
+retreat,,Fall back. All units fall back!
+retreat,,Aaaaaah! Run away!
+evade,,Evasive maneuvers.
+evade,,Dodge those missiles.
+attack,enemies,What's wrong with you? Shoot the monster!
+protect,me,I'm wounded. Give me some covering fire.
+protect,me,Cover me.
+go,up,Let's get back to the surface.
+enter,tunnels,Try to hide in those tunnels.
+go,down,Descend the ladder.
+follow,spaceship,Trail that landing shuttle.
+attack,building,Destroy every house and every structure.
+go,up,Everybody to the top of the hills. Claim the high ground.
+exit,turret,Get out of that missile turret.

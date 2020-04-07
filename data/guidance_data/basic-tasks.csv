@@ -1,0 +1,15 @@
+off,light,turn off the light
+on,light,turn on the light
+up,volume,turn the volume up
+up,volume,make volume louder
+up,temperature,turn up the temperature
+down,volume,turn the volume down
+down,volume,make volume quieter
+down,temperature,turn down the temperature
+run,dishwasher,run the dishwasher
+run,dishwasher,clean the dishes
+clean,floor,clean the floor
+clean,floor,vacuum the floor
+unlock,door,unlock the door
+unlock,door,open the door
+lock,door,lock the door

@@ -1,0 +1,20 @@
+attack,enemies,Open fire!
+follow,me,Come this way
+attack,spaceship,Shoot down that star cruiser
+enter,building,Go into the skyscraper
+enter,vehicle,Hop aboard this jeep
+exit,building,Go outside the walls
+follow,enemies,chase those hostiles
+attack,me,Hit me
+protect,tunnels,Guard the caves
+attack,vehicle,Fire on that tank!
+attack,enemies,Kill the bad guys.
+follow,me,all units on my tail
+enter,vehicle,Board that SUV
+protect,spaceship,Give that landing shuttle some covering fire
+attack,turret,Fire back at that turret!
+exit,turret,Get out of that tower!
+go,building,Get over by the hospital
+go,me,Come over here
+evade,enemies,Try to dodge those cannonballs
+evade,turret,Watch out for that tower!

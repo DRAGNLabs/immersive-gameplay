@@ -1,0 +1,480 @@
+go,tunnels,run over to those caves
+go,tunnels,go to those caves
+go,tunnels,walk to those caves
+go,tunnels,run over to that tunnel
+go,tunnels,go to that tunnel
+go,tunnels,walk to that tunnel
+go,tunnels,run over to that hallway
+go,tunnels,go to that hallway
+go,tunnels,walk to that hallway
+go,tunnels,run over to that entrance
+go,tunnels,go to that entrance
+go,tunnels,walk to that entrance
+attack,tunnels,shoot at those caves
+attack,tunnels,try to kill those caves
+attack,tunnels,strike those caves
+attack,tunnels,target those caves
+attack,tunnels,take down those caves
+attack,tunnels,shoot at that tunnel
+attack,tunnels,try to kill that tunnel
+attack,tunnels,strike that tunnel
+attack,tunnels,target that tunnel
+attack,tunnels,take down that tunnel
+attack,tunnels,shoot at that hallway
+attack,tunnels,try to kill that hallway
+attack,tunnels,strike that hallway
+attack,tunnels,target that hallway
+attack,tunnels,take down that hallway
+attack,tunnels,shoot at that entrance
+attack,tunnels,try to kill that entrance
+attack,tunnels,strike that entrance
+attack,tunnels,target that entrance
+attack,tunnels,take down that entrance
+evade,tunnels,get away from those caves
+evade,tunnels,look out for those caves
+evade,tunnels,dodge those caves
+evade,tunnels,get away from that tunnel
+evade,tunnels,look out for that tunnel
+evade,tunnels,dodge that tunnel
+evade,tunnels,get away from that hallway
+evade,tunnels,look out for that hallway
+evade,tunnels,dodge that hallway
+evade,tunnels,get away from that entrance
+evade,tunnels,look out for that entrance
+evade,tunnels,dodge that entrance
+protect,tunnels,defend those caves
+protect,tunnels,guard those caves
+protect,tunnels,shield those caves
+protect,tunnels,defend that tunnel
+protect,tunnels,guard that tunnel
+protect,tunnels,shield that tunnel
+protect,tunnels,defend that hallway
+protect,tunnels,guard that hallway
+protect,tunnels,shield that hallway
+protect,tunnels,defend that entrance
+protect,tunnels,guard that entrance
+protect,tunnels,shield that entrance
+follow,tunnels,keep up with those caves
+follow,tunnels,go with those caves
+follow,tunnels,trail those caves
+follow,tunnels,track those caves
+follow,tunnels,keep up with that tunnel
+follow,tunnels,go with that tunnel
+follow,tunnels,trail that tunnel
+follow,tunnels,track that tunnel
+follow,tunnels,keep up with that hallway
+follow,tunnels,go with that hallway
+follow,tunnels,trail that hallway
+follow,tunnels,track that hallway
+follow,tunnels,keep up with that entrance
+follow,tunnels,go with that entrance
+follow,tunnels,trail that entrance
+follow,tunnels,track that entrance
+enter,tunnels,get in those caves
+enter,tunnels,get in that tunnel
+enter,tunnels,get in that hallway
+enter,tunnels,get in that entrance
+exit,tunnels,get out of those caves
+exit,tunnels,get out of that tunnel
+exit,tunnels,get out of that hallway
+exit,tunnels,get out of that entrance
+go,building,run over to that hospital
+go,building,go to that hospital
+go,building,walk to that hospital
+go,building,run over to the castle
+go,building,go to the castle
+go,building,walk to the castle
+go,building,run over to that guard post
+go,building,go to that guard post
+go,building,walk to that guard post
+go,building,run over to the second tower
+go,building,go to the second tower
+go,building,walk to the second tower
+go,building,run over to those houses
+go,building,go to those houses
+go,building,walk to those houses
+attack,building,shoot at that hospital
+attack,building,try to kill that hospital
+attack,building,strike that hospital
+attack,building,target that hospital
+attack,building,take down that hospital
+attack,building,shoot at the castle
+attack,building,try to kill the castle
+attack,building,strike the castle
+attack,building,target the castle
+attack,building,take down the castle
+attack,building,shoot at that guard post
+attack,building,try to kill that guard post
+attack,building,strike that guard post
+attack,building,target that guard post
+attack,building,take down that guard post
+attack,building,shoot at the second tower
+attack,building,try to kill the second tower
+attack,building,strike the second tower
+attack,building,target the second tower
+attack,building,take down the second tower
+attack,building,shoot at those houses
+attack,building,try to kill those houses
+attack,building,strike those houses
+attack,building,target those houses
+attack,building,take down those houses
+evade,building,get away from that hospital
+evade,building,look out for that hospital
+evade,building,dodge that hospital
+evade,building,get away from the castle
+evade,building,look out for the castle
+evade,building,dodge the castle
+evade,building,get away from that guard post
+evade,building,look out for that guard post
+evade,building,dodge that guard post
+evade,building,get away from the second tower
+evade,building,look out for the second tower
+evade,building,dodge the second tower
+evade,building,get away from those houses
+evade,building,look out for those houses
+evade,building,dodge those houses
+protect,building,defend that hospital
+protect,building,guard that hospital
+protect,building,shield that hospital
+protect,building,defend the castle
+protect,building,guard the castle
+protect,building,shield the castle
+protect,building,defend that guard post
+protect,building,guard that guard post
+protect,building,shield that guard post
+protect,building,defend the second tower
+protect,building,guard the second tower
+protect,building,shield the second tower
+protect,building,defend those houses
+protect,building,guard those houses
+protect,building,shield those houses
+follow,building,keep up with that hospital
+follow,building,go with that hospital
+follow,building,trail that hospital
+follow,building,track that hospital
+follow,building,keep up with the castle
+follow,building,go with the castle
+follow,building,trail the castle
+follow,building,track the castle
+follow,building,keep up with that guard post
+follow,building,go with that guard post
+follow,building,trail that guard post
+follow,building,track that guard post
+follow,building,keep up with the second tower
+follow,building,go with the second tower
+follow,building,trail the second tower
+follow,building,track the second tower
+follow,building,keep up with those houses
+follow,building,go with those houses
+follow,building,trail those houses
+follow,building,track those houses
+enter,building,get in that hospital
+enter,building,get in the castle
+enter,building,get in that guard post
+enter,building,get in the second tower
+enter,building,get in those houses
+exit,building,get out of that hospital
+exit,building,get out of the castle
+exit,building,get out of that guard post
+exit,building,get out of the second tower
+exit,building,get out of those houses
+go,turret,run over to that missile turret
+go,turret,go to that missile turret
+go,turret,walk to that missile turret
+attack,turret,shoot at that missile turret
+attack,turret,try to kill that missile turret
+attack,turret,strike that missile turret
+attack,turret,target that missile turret
+attack,turret,take down that missile turret
+evade,turret,get away from that missile turret
+evade,turret,look out for that missile turret
+evade,turret,dodge that missile turret
+protect,turret,defend that missile turret
+protect,turret,guard that missile turret
+protect,turret,shield that missile turret
+follow,turret,keep up with that missile turret
+follow,turret,go with that missile turret
+follow,turret,trail that missile turret
+follow,turret,track that missile turret
+enter,turret,get in that missile turret
+exit,turret,get out of that missile turret
+go,vehicle,run over to that car
+go,vehicle,go to that car
+go,vehicle,walk to that car
+go,vehicle,run over to the helicopter
+go,vehicle,go to the helicopter
+go,vehicle,walk to the helicopter
+go,vehicle,run over to that warthog
+go,vehicle,go to that warthog
+go,vehicle,walk to that warthog
+go,vehicle,run over to those jeeps
+go,vehicle,go to those jeeps
+go,vehicle,walk to those jeeps
+attack,vehicle,shoot at that car
+attack,vehicle,try to kill that car
+attack,vehicle,strike that car
+attack,vehicle,target that car
+attack,vehicle,take down that car
+attack,vehicle,shoot at the helicopter
+attack,vehicle,try to kill the helicopter
+attack,vehicle,strike the helicopter
+attack,vehicle,target the helicopter
+attack,vehicle,take down the helicopter
+attack,vehicle,shoot at that warthog
+attack,vehicle,try to kill that warthog
+attack,vehicle,strike that warthog
+attack,vehicle,target that warthog
+attack,vehicle,take down that warthog
+attack,vehicle,shoot at those jeeps
+attack,vehicle,try to kill those jeeps
+attack,vehicle,strike those jeeps
+attack,vehicle,target those jeeps
+attack,vehicle,take down those jeeps
+evade,vehicle,get away from that car
+evade,vehicle,look out for that car
+evade,vehicle,dodge that car
+evade,vehicle,get away from the helicopter
+evade,vehicle,look out for the helicopter
+evade,vehicle,dodge the helicopter
+evade,vehicle,get away from that warthog
+evade,vehicle,look out for that warthog
+evade,vehicle,dodge that warthog
+evade,vehicle,get away from those jeeps
+evade,vehicle,look out for those jeeps
+evade,vehicle,dodge those jeeps
+protect,vehicle,defend that car
+protect,vehicle,guard that car
+protect,vehicle,shield that car
+protect,vehicle,defend the helicopter
+protect,vehicle,guard the helicopter
+protect,vehicle,shield the helicopter
+protect,vehicle,defend that warthog
+protect,vehicle,guard that warthog
+protect,vehicle,shield that warthog
+protect,vehicle,defend those jeeps
+protect,vehicle,guard those jeeps
+protect,vehicle,shield those jeeps
+follow,vehicle,keep up with that car
+follow,vehicle,go with that car
+follow,vehicle,trail that car
+follow,vehicle,track that car
+follow,vehicle,keep up with the helicopter
+follow,vehicle,go with the helicopter
+follow,vehicle,trail the helicopter
+follow,vehicle,track the helicopter
+follow,vehicle,keep up with that warthog
+follow,vehicle,go with that warthog
+follow,vehicle,trail that warthog
+follow,vehicle,track that warthog
+follow,vehicle,keep up with those jeeps
+follow,vehicle,go with those jeeps
+follow,vehicle,trail those jeeps
+follow,vehicle,track those jeeps
+enter,vehicle,get in that car
+enter,vehicle,get in the helicopter
+enter,vehicle,get in that warthog
+enter,vehicle,get in those jeeps
+exit,vehicle,get out of that car
+exit,vehicle,get out of the helicopter
+exit,vehicle,get out of that warthog
+exit,vehicle,get out of those jeeps
+go,spaceship,run over to that plane
+go,spaceship,go to that plane
+go,spaceship,walk to that plane
+go,spaceship,run over to those ships
+go,spaceship,go to those ships
+go,spaceship,walk to those ships
+go,spaceship,run over to that UFO
+go,spaceship,go to that UFO
+go,spaceship,walk to that UFO
+go,spaceship,run over to those bombers
+go,spaceship,go to those bombers
+go,spaceship,walk to those bombers
+attack,spaceship,shoot at that plane
+attack,spaceship,try to kill that plane
+attack,spaceship,strike that plane
+attack,spaceship,target that plane
+attack,spaceship,take down that plane
+attack,spaceship,shoot at those ships
+attack,spaceship,try to kill those ships
+attack,spaceship,strike those ships
+attack,spaceship,target those ships
+attack,spaceship,take down those ships
+attack,spaceship,shoot at that UFO
+attack,spaceship,try to kill that UFO
+attack,spaceship,strike that UFO
+attack,spaceship,target that UFO
+attack,spaceship,take down that UFO
+attack,spaceship,shoot at those bombers
+attack,spaceship,try to kill those bombers
+attack,spaceship,strike those bombers
+attack,spaceship,target those bombers
+attack,spaceship,take down those bombers
+evade,spaceship,get away from that plane
+evade,spaceship,look out for that plane
+evade,spaceship,dodge that plane
+evade,spaceship,get away from those ships
+evade,spaceship,look out for those ships
+evade,spaceship,dodge those ships
+evade,spaceship,get away from that UFO
+evade,spaceship,look out for that UFO
+evade,spaceship,dodge that UFO
+evade,spaceship,get away from those bombers
+evade,spaceship,look out for those bombers
+evade,spaceship,dodge those bombers
+protect,spaceship,defend that plane
+protect,spaceship,guard that plane
+protect,spaceship,shield that plane
+protect,spaceship,defend those ships
+protect,spaceship,guard those ships
+protect,spaceship,shield those ships
+protect,spaceship,defend that UFO
+protect,spaceship,guard that UFO
+protect,spaceship,shield that UFO
+protect,spaceship,defend those bombers
+protect,spaceship,guard those bombers
+protect,spaceship,shield those bombers
+follow,spaceship,keep up with that plane
+follow,spaceship,go with that plane
+follow,spaceship,trail that plane
+follow,spaceship,track that plane
+follow,spaceship,keep up with those ships
+follow,spaceship,go with those ships
+follow,spaceship,trail those ships
+follow,spaceship,track those ships
+follow,spaceship,keep up with that UFO
+follow,spaceship,go with that UFO
+follow,spaceship,trail that UFO
+follow,spaceship,track that UFO
+follow,spaceship,keep up with those bombers
+follow,spaceship,go with those bombers
+follow,spaceship,trail those bombers
+follow,spaceship,track those bombers
+enter,spaceship,get in that plane
+enter,spaceship,get in those ships
+enter,spaceship,get in that UFO
+enter,spaceship,get in those bombers
+exit,spaceship,get out of that plane
+exit,spaceship,get out of those ships
+exit,spaceship,get out of that UFO
+exit,spaceship,get out of those bombers
+go,enemies,run over to those hostiles
+go,enemies,go to those hostiles
+go,enemies,walk to those hostiles
+go,enemies,run over to that gunner
+go,enemies,go to that gunner
+go,enemies,walk to that gunner
+go,enemies,run over to the zombie
+go,enemies,go to the zombie
+go,enemies,walk to the zombie
+go,enemies,run over to the monster
+go,enemies,go to the monster
+go,enemies,walk to the monster
+attack,enemies,shoot at those hostiles
+attack,enemies,try to kill those hostiles
+attack,enemies,strike those hostiles
+attack,enemies,target those hostiles
+attack,enemies,take down those hostiles
+attack,enemies,shoot at that gunner
+attack,enemies,try to kill that gunner
+attack,enemies,strike that gunner
+attack,enemies,target that gunner
+attack,enemies,take down that gunner
+attack,enemies,shoot at the zombie
+attack,enemies,try to kill the zombie
+attack,enemies,strike the zombie
+attack,enemies,target the zombie
+attack,enemies,take down the zombie
+attack,enemies,shoot at the monster
+attack,enemies,try to kill the monster
+attack,enemies,strike the monster
+attack,enemies,target the monster
+attack,enemies,take down the monster
+evade,enemies,get away from those hostiles
+evade,enemies,look out for those hostiles
+evade,enemies,dodge those hostiles
+evade,enemies,get away from that gunner
+evade,enemies,look out for that gunner
+evade,enemies,dodge that gunner
+evade,enemies,get away from the zombie
+evade,enemies,look out for the zombie
+evade,enemies,dodge the zombie
+evade,enemies,get away from the monster
+evade,enemies,look out for the monster
+evade,enemies,dodge the monster
+protect,enemies,defend those hostiles
+protect,enemies,guard those hostiles
+protect,enemies,shield those hostiles
+protect,enemies,defend that gunner
+protect,enemies,guard that gunner
+protect,enemies,shield that gunner
+protect,enemies,defend the zombie
+protect,enemies,guard the zombie
+protect,enemies,shield the zombie
+protect,enemies,defend the monster
+protect,enemies,guard the monster
+protect,enemies,shield the monster
+follow,enemies,keep up with those hostiles
+follow,enemies,go with those hostiles
+follow,enemies,trail those hostiles
+follow,enemies,track those hostiles
+follow,enemies,keep up with that gunner
+follow,enemies,go with that gunner
+follow,enemies,trail that gunner
+follow,enemies,track that gunner
+follow,enemies,keep up with the zombie
+follow,enemies,go with the zombie
+follow,enemies,trail the zombie
+follow,enemies,track the zombie
+follow,enemies,keep up with the monster
+follow,enemies,go with the monster
+follow,enemies,trail the monster
+follow,enemies,track the monster
+enter,enemies,get in those hostiles
+enter,enemies,get in that gunner
+enter,enemies,get in the zombie
+enter,enemies,get in the monster
+exit,enemies,get out of those hostiles
+exit,enemies,get out of that gunner
+exit,enemies,get out of the zombie
+exit,enemies,get out of the monster
+go,me,run over to my position
+go,me,go to my position
+go,me,walk to my position
+go,me,run over to me
+go,me,go to me
+go,me,walk to me
+attack,me,shoot at my position
+attack,me,try to kill my position
+attack,me,strike my position
+attack,me,target my position
+attack,me,take down my position
+attack,me,shoot at me
+attack,me,try to kill me
+attack,me,strike me
+attack,me,target me
+attack,me,take down me
+evade,me,get away from my position
+evade,me,look out for my position
+evade,me,dodge my position
+evade,me,get away from me
+evade,me,look out for me
+evade,me,dodge me
+protect,me,defend my position
+protect,me,guard my position
+protect,me,shield my position
+protect,me,defend me
+protect,me,guard me
+protect,me,shield me
+follow,me,keep up with my position
+follow,me,go with my position
+follow,me,trail my position
+follow,me,track my position
+follow,me,keep up with me
+follow,me,go with me
+follow,me,trail me
+follow,me,track me
+enter,me,get in my position
+enter,me,get in me
+exit,me,get out of my position
+exit,me,get out of me

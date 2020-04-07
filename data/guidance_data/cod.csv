@@ -1,0 +1,32 @@
+flee,,Get away from here
+flee,,Run for cover
+protect,ally,Help that guy
+protect,ally,Cover him
+follow,ally,Follow him
+follow,ally,Stay on his tail
+attack,enemies,Shoot the bad guy
+attack,enemies,Fire on the hostiles
+enter,building,Get in that house
+enter,building,Enter that barn
+exit,building,Get out of there
+exit,building,Leave the hospital
+protect,building,Defend that structure
+protect,building,Protect the building
+attack,building,Fire on the building
+attack,building,Destroy that house
+attack,aircraft,Fire on that aircraft
+attack,aircraft,Shoot down that plane
+protect,aircraft,Defend that spaceship
+protect,aircraft,Don't let that ship get destroyed
+enter,aircraft,Get in the plane
+enter,aircraft,Board that aircraft
+exit,aircraft,Get out of the ship
+exit,aircraft,Eject
+enter,vehicle,Get in that car
+enter,vehicle,Get in that tank
+exit,vehicle,Get out of that car
+exit,vehicle,Get out of that tank
+protect,vehicle,Defend that vehicle
+protect,vehicle,Protect that car
+attack,vehicle,Shoot at the tank
+attack,vehicle,Fire on the car

@@ -1,0 +1,21 @@
+off,light,please turn off the light
+off,light,turn the lights off
+on,light,lights on
+on,light,can you turn on the lights
+up,volume,turn the volume up please
+up,volume,make volume louder
+up,volume,increase volume
+up,temperature,hey turn up the temp
+up,temperature,make it hotter by turning up the temperature
+down,volume,be quiet
+down,volume,turn volume down
+down,temperature,turn the temperature down
+down,temperature,turn the temp down please
+run,dishwasher,please do the dishes
+run,dishwasher,can you run the dishwasher
+clean,floor,can you run the vacuum
+clean,floor,please clean the floor
+unlock,door,can you open the door for me
+unlock,door,I want the door open
+lock,door,lock the door please
+lock,door,lock the door when I leave
