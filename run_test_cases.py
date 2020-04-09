@@ -9,31 +9,28 @@ import re
 
 # HYPER-PARAMETERS
 INFERSENT_VERSION = 1
-DATASET = 'basic-tasks'
-USE_WEIGHTING = True
+DATASET = 'cod'
 NUM_MATCHES = 1
 ######################
 
 if len(sys.argv) >= 4:
     INFERSENT_VERSION = int(sys.argv[1])
     DATASET = sys.argv[2]
-    USE_WEIGHTING = bool(sys.argv[3])
 
 print('Running with the following parameters:')
 print(f'InferSent: v{INFERSENT_VERSION}')
 print(f'Data Set: {DATASET}')
-print(f'Weighting: {USE_WEIGHTING}')
 
 W2V_VERSION = 'fasttext' if INFERSENT_VERSION == 2 else 'glove'
 V = INFERSENT_VERSION
-MODEL_PATH = 'resources/encoder/infersent%s.pkl' % V
+MODEL_PATH = 'resources/infersent%s.pkl' % V # FIXME use your path to the infersent models. Download using instructions at https://modelzoo.co/model/infersent or `curl -Lo encoder/infersent1.pkl https://s3.amazonaws.com/senteval/infersent/infersent1.pkl` (repeat using 2 instead of 1)
 params_model = {'bsize': 64, 'word_emb_dim': 300, 'enc_lstm_dim': 2048,
                 'pool_type': 'max', 'dpout_model': 0.0, 'version': V}
 infersent = models.InferSent(params_model)
 infersent.load_state_dict(torch.load(MODEL_PATH))
 
-W2V_PATH_FASTTEXT = '/home/berkeley/apps/pretrained_word_embeddings/crawl-300d-2M.vec'
-W2V_PATH_GLOVE = '/home/berkeley/apps/pretrained_word_embeddings/glove.840B.300d.txt'
+W2V_PATH_FASTTEXT = 'resources/crawl-300d-2M.vec' # FIXME use your path to the fasttext model. Download at https://fasttext.cc/docs/en/english-vectors.html
+W2V_PATH_GLOVE = '/home/bandrus/Documents/fulda_research/old-immersive-gameplay/GloVe/glove.840B.300d.txt' # FIXME use your path to the glove model. Download at https://nlp.stanford.edu/projects/glove/
 
 if W2V_VERSION == 'fasttext':
     infersent.set_w2v_path(W2V_PATH_FASTTEXT)
@@ -96,22 +93,7 @@ def zero_vector():
 
 
 def get_weights():
-    if not USE_WEIGHTING:
-        return [1 / 4096] * 4096
-    with open(f'resources/weights.csv', 'r') as weight_file:
-        lines = weight_file.readlines()
-    if DATASET in ['cod', 'handwritten', 'warcraft', 'generated']:
-        dataset_key = DATASET
-    else:
-        dataset_key = 'cod'  # Use COD weights for all new datasets, it should be the most general
-    for line in lines:
-        split_line = line.split(',')
-        if dataset_key not in split_line[0]:
-            continue
-        if str(INFERSENT_VERSION) not in split_line[1]:
-            continue
-        return [float(x) for x in split_line[2:-1]]
-    raise NotImplementedError(f'No weights available for dataset: {DATASET}, infersent version: {INFERSENT_VERSION}')
+    return [1 / 4096] * 4096
 
 
 weights = get_weights()
@@ -266,6 +248,8 @@ def pc_distance(test_cases, verb_pcs, object_pcs, distance_measure=spatial.dista
 
 
 def method_evaluator(method, method_args):
+    print(measure.__name__, end='\t\t' if measure.__name__ == 'cosine' else '\t')
+
     guesses = method(*method_args)
 
     verb_score = 0
@@ -285,17 +269,18 @@ def method_evaluator(method, method_args):
     print(str(verb_score) + ' ' + str(obj_score))
 
 
+print('Simple Distance')
 for measure in weighted_distance_measure_methods:
     method_evaluator(simple_distance, (test_cases, action_vectors, measure))
 print()
+print('Translation')
 for measure in weighted_distance_measure_methods:
     method_evaluator(translation, (test_cases, verb_vectors, object_vectors, verb_guidance_vector, object_guidance_vector, measure))
 print()
-for measure in weighted_distance_measure_methods:
-    method_evaluator(nearest_neighbor, (test_cases, canonical_utterance_vectors, canonical_verbs, canonical_objects, measure))
-print()
+print('PC Distance')
 for measure in weighted_distance_measure_methods:
     method_evaluator(pc_distance, (test_cases, verb_pcs, object_pcs, measure))
-
-
-print('\n\n\n\n')
+print()
+print('Nearest Neighbor')
+for measure in weighted_distance_measure_methods:
+    method_evaluator(nearest_neighbor, (test_cases, canonical_utterance_vectors, canonical_verbs, canonical_objects, measure))
