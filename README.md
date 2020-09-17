@@ -1,5 +1,5 @@
 # Immersive Gameplay
-This is the code that tests the methods described in the forthcoming paper Immersive Gameplay via Improved Natural Language Understanding. Before you can run it you will need word and sentence embedding models for GloVe, FastText, and InferSent. Instructions for downloading all three can be found at https://modelzoo.co/model/infersent
+This is the code that tests the methods described in the paper [Immersive Gameplay via Improved Natural Language Understanding](https://dl.acm.org/doi/10.1145/3402942.3403024). Before you can run it you will need word and sentence embedding models for GloVe, FastText, and InferSent. Instructions for downloading all three can be found at https://modelzoo.co/model/infersent
 
 I am happy to answer any questions. You may contact me at bandrus5@byu.edu
 
